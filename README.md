@@ -2,6 +2,13 @@
 
 Hi! This is what will make Exponent actually be useable by people. :)
 
+## Translations
+
+### 简体翻译
+https://exponent-contrib.github.io/exponent-docs-zh-cn/versions/unversioned/
+
+### 繁体翻译
+In process, cc @kuyen
 
 ## How to edit
 
