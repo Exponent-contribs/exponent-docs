@@ -6,40 +6,40 @@
 
 第一个指南的目标是创建一个 Exponent 应用并尽可能快地运行起来。
 
-关于这个，我们应该在开发机器上安装好了 XDE 和在 iOS 或者 Android （设备或虚拟机）上安装好了 Exponent 服务。如果没有，在继续之前请回去 `Installation <../introduction/installation.html>`_ 指南。
+在这里，我们应该已经在开发机器上安装好了 XDE 和在 iOS 或者 Android （设备或虚拟机）上安装好了 Exponent 客户端。如果没有，在继续之前请回去 `Installation <../introduction/installation.html>`_ 指南。
 
 好了，让我们开始吧！
 
-创建一个项目
+创建一个帐号
 """""""""""""""""
 
 打开 XDE 时你会被要求输入用户名和密码。用你想要的用户名和密码填好表格并按下继续 continue 按钮——如果用户名没被占用，我们会自动为你创建一个账户。
 
-项目的创建
+创建项目
 """"""""""""""""""""
 
 按下 ``Project`` 并选择 ``New Project``，然后选择 ``Tab Navigation`` 选项因为这会是一个很好的开始，然后在弹出的对话窗口中输入你的项目名。在这里，我把它命名为 ``first-project``，然后按下创建。
 
-然后，选择项目的存储位置，我把我所有的有趣的项目都保存在 ``~/coding``中，所以我找到了那个目录并按下点开。
+然后，选择项目的存储位置，我把所有有趣的项目都保存在 ``~/coding``中，所以我找到了那个目录并按下点开。
 
 XDE 现在已经被初始化而且选定了一个地址：它复制了基础的组件和安装了 ``react``, ``react-native`` 和 ``exponent``。
 
-当项目已经初始化并且准备好是，你会看到 XDE 记录中出现"React packager ready"的消息。
+当项目已经初始化并且准备好以后，你会看到 XDE 记录中出现"React packager ready"的消息。
 
-"React packager"是一个用 `Babel <https://babeljs.io/>`_ 来编译 JavaScript 代码并提供到 Exponent 的简单 HTTP 服务。
+"React packager" 是一个用 `Babel <https://babeljs.io/>`_ 来编译 JavaScript 代码并提供给 Exponent 的简单 HTTP 服务。
 
 .. epigraph::
-  **注意:** 如果你使用的是 MacOS 系统而且 XDE 卡在了"Waiting for packager and tunnel to start"，你可能需要 `install watchman on your machine <https://facebook.github.io/watchman/docs/install.html#build-install>`_。最简单的方法是使用 `Homebrew <http://brew.sh/>`_, ``brew install watchman``。
+  **注意:** 如果你使用的是 MacOS 系统而且 XDE 卡在了 "Waiting for packager and tunnel to start"， 你可能需要 `install watchman on your machine <https://facebook.github.io/watchman/docs/install.html#build-install>`_。最简单的方法是使用 `Homebrew <http://brew.sh/>`_, ``brew install watchman``。
 
 在你的手机或虚拟机中打开 app。
 """""""""""""""""""""""""""""""""""""""
 
-你会看见 XDE 显示一条像 ``http://4v-9wa.notbrent.mynewproject.exp.direct:80`` 的链接——放心地打开这个，你会看到它提供一些 JSON，这是 Exponent 提供的 manifest。
-在地址栏中输入这个链接后，我们打开 Exponent 后就能打开我们的应用了。或者，点击``Send Link``，输入你的手机号码，然后再点击一次``Send Link``。打开手机的信息然后点击链接并在 Exponent 中打开。
+你会看见 XDE 显示一条类似 ``http://4v-9wa.notbrent.mynewproject.exp.direct:80`` 的链接——放心地打开这个，你会看到它提供一些 JSON，这是 Exponent 提供的 manifest。
+在地址栏中输入这个链接后，我们打开 Exponent 后就能打开我们的应用了。或者，点击 ``Send Link``，输入你的手机号码，然后再点击一次``Send Link``。打开手机的信息然后点击链接并在 Exponent 中打开。
 你可以分享这个地址给任何装了 Exponent 的人，但它只有在你将项目在 XDE 打开时才有效。
 
 想在虚拟机中打开这个 app，你可以点击 ``Device`` 按钮然后选择 ``Open on iOS Simulator`` （仅限 macOS）。
-至于安卓，可以先boot，然后点击 ``Device`` 按钮然后选择 ``Open on Android``。
+至于安卓，可以先 boot，然后点击 ``Device`` 按钮然后选择 ``Open on Android``。
 
 做出你的第一个修改
 """"""""""""""""""""""""
