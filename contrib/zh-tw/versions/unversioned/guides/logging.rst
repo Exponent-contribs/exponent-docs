@@ -76,5 +76,5 @@ exp logs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * 確定已經安裝 Android SDK
-* 確定 `設備上的 USB 除錯開關已經打開 <https://developer.android.com/studio/run/device.html#device-developer-options>`_ (模擬器應不必要).
-* 輸入``adb logcat``
+* 確定 `設備上的 USB 除錯開關已經打開 <https://developer.android.com/studio/run/device.html#device-developer-options>`_（模擬器應不必要）。
+* 輸入 ``adb logcat``
