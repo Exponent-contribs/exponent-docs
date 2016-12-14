@@ -81,6 +81,6 @@ props
 
 .. attribute:: locations
 
-  An array of the same lenth as ``colors``, where each element is a float with the
+  An array of the same length as ``colors``, where each element is a float with the
   same meaning as the ``start`` and ``end`` values, but instead they indicate where
   the color at that index should be.
